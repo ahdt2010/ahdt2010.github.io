@@ -358,7 +358,7 @@ Bir değiliz ama birlikteyiz.">
         close.addEventListener('click',hide);
         overlay.addEventListener('click',function(e){if(e.target===overlay)hide();});
         document.addEventListener('keydown',function(e){if(!overlay.classList.contains('am-visible'))return;if(e.key==='Escape')hide();if(e.key==='Tab'){const items=[close,apply];if(e.shiftKey&&document.activeElement===items[0]){e.preventDefault();items[1].focus();}else if(!e.shiftKey&&document.activeElement===items[1]){e.preventDefault();items[0].focus();}}});
-        apply.addEventListener('click',function(e){if(this.getAttribute('href')==='BURAYA_BASVURU_LINKINI_EKLEYIN'){e.preventDefault();}});
+        apply.addEventListener('click',function(e){if(this.getAttribute('href')==='https://docs.google.com/forms/d/e/1FAIpQLSfVf_kw_SyXT_SCA8To-ADvL6mRiem0JCUOzYHGqDeoM6o3RA/viewform?usp=header'){e.preventDefault();}});
       })();
     </script>
 </body>
